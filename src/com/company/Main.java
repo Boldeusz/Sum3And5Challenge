@@ -10,12 +10,14 @@ public class Main {
                 System.out.println("The number divided with 3 and 5 is " + i);
                 count++;
                 sum += i;
-                if (count == 5){
-                    System.out.println("Sum of the numbers is " + sum);
 
-                    break;
-                }
+            }
+            if (count == 5){
+
+
+                break;
             }
         }
+        System.out.println("Sum of the numbers is " + sum);
     }
 }
